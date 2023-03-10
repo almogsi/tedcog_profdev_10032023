@@ -1,0 +1,66 @@
+---
+title: "Literate Programming"
+subtitle: "Weaving of text and analysis via RMarkdown and Quarto"
+author: "Almog Simchon"
+institute: "TeDCog Professional Development"
+format:
+  revealjs: 
+    #theme: beige
+    transition: slide
+    slide-number: true
+    separate-fragments: true
+    #smaller: true
+    #chalkboard: true
+editor: visual
+---
+
+# Introduction to RMarkdown
+
+RMarkdown is a markup language that enables you to create dynamic documents that integrate code, text, and visualizations. In this presentation, we will explore what RMarkdown is and why you should consider using it for your next project.
+
+![](rmd_logo.png){fig-align="center" width="100"}
+
+## What is RMarkdown?
+
+-   RMarkdown is a markup language that allows you to write documents that include R code, text, and visualizations.
+-   It is based on Markdown, a lightweight markup language that is easy to learn and use.
+-   RMarkdown allows you to produce various types of documents, including reports, presentations, websites, and even books.
+-   It supports several output formats, including HTML, PDF, Word, and PowerPoint, among others.
+
+## Why Use RMarkdown? {.smaller}
+
+-   **Reproducibility**: RMarkdown documents are reproducible, meaning that others can easily replicate your analyses and results by running the same code.
+-   **Efficiency**: RMarkdown makes it easy to integrate code and text, which can save you time and effort in your analysis and reporting.
+-   **Customization**: RMarkdown provides customizable templates that allow you to design your document's appearance to fit your specific needs. You can also create your own templates or modify existing ones.
+
+# Getting Started with RMarkdown
+
+To get started with RMarkdown, you will need to install R and RStudio, a popular integrated development environment (IDE) for R. Once you have installed R and RStudio, you can create a new RMarkdown document by clicking on "File" \> "New File" \> "R Markdown".
+
+From there, you can choose your output format and customize your document using code, text, and visualizations.
+
+# RMarkdown Summary
+
+RMarkdown is a powerful tool for data analysis and reporting that allows you to create dynamic documents that integrate code, text, and visualizations. Its benefits include reproducibility, efficiency, flexibility, and customization. If you're looking for a tool that can save you time and effort in your analysis and reporting, RMarkdown might be the perfect solution for your needs.
+
+# Introduction to Quarto
+
+Quarto is a versatile and lightweight markup language that is ideal for technical and scientific writing. In this presentation, we will explore why Quarto is worth considering and how it differs from RMarkdown.
+
+![](quarto.png){fig-align="center" width="100"}
+
+## Why Use Quarto? {.smaller}
+
+-   **Versatile**: Quarto can be used for various types of documents, from research papers to presentations and even books. With LaTeX support, it can produce high-quality documents with mathematical equations, tables, and figures.
+-   **Interactive**: Quarto provides interactivity and dynamic content using JavaScript and HTML. This means you can embed interactive visualizations, animations, and videos in your document, making it more engaging and informative.
+-   **Customization**: Quarto provides customizable templates, which means you can design your document's appearance to fit your specific needs. You can also create your own templates or modify existing ones.
+
+## How is Quarto Different from RMarkdown? {.smaller}
+
+-   **Markdown Engine**: Quarto uses its own Markdown engine, which is more extensible and can be customized to fit your specific needs. RMarkdown, on the other hand, uses the Pandoc Markdown engine.
+-   **Language Support**: Quarto supports multiple programming languages, such as R, Python, and Julia, while RMarkdown is primarily designed for R.
+-   **Interactive Content**: Quarto provides more extensive support for interactive content, such as Shiny apps and JavaScript visualizations, compared to RMarkdown.
+
+# Quarto Summary
+
+Quarto is a powerful and flexible markup language that offers many advantages over RMarkdown. Its versatility, interactivity, and customization make it an excellent choice for technical and scientific writing. If you're looking for a lightweight and flexible document format that supports collaboration and interactivity, Quarto might be the perfect solution for your needs.

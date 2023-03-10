@@ -1,0 +1,48 @@
+---
+title: "Qmd Example"
+author: "Almog Simchon"
+date: "`r Sys.Date()`"
+output: html
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r mtcars}
+#| warning: false
+#| message: false
+
+library(tidyverse)
+
+mtcars |> 
+  filter(cyl == 6)
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r plot}
+#| warning: false
+#| message: false
+
+ggplot(mtcars) + 
+  geom_point(aes(cyl, mpg)) +
+  geom_smooth(aes(cyl, mpg))
+
+```
+
+You can add options to executable code like this
+
+```{r echo_example}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
